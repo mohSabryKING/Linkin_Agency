@@ -1,0 +1,149 @@
+*{font-family: 'Cairo';}
+body{
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 1.5;
+      background-color: rgb(0, 43, 185);
+      width: auto;
+      height: max-content;
+      
+}
+
+@media (min-width:320px) {
+      #content-main {width: fit-content;float: left;}
+      #content-related, .colSM #content-related {
+            width:fit-content;
+            margin: 0px;
+        }
+
+        #content-related .module {
+            margin-bottom: 0;
+            /* width: fit-content; */
+            /* width: fit-content; */
+            width: 254px;
+            /* margin: -11px; */
+            max-width: fit-content;
+            display: block;
+        }
+        div#content-main>div.module {    width: 594px;font-size: xx-large;
+            max-width: max-content;}
+}
+
+
+@media (min-width:321px) and(max-width:969px) {
+      div#content-main>div.module {    width: 594px;font-size: medium;
+            max-width: max-content;}
+    
+      #content-main{display: grid;grid-template-rows: repeat(2,30vh);grid-gap: 20px;}
+      ul.object-tools{
+
+
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            z-index: 40;
+      
+      }
+     
+
+}
+
+
+
+
+
+body.login>div#container {
+      background: #002067;
+    border: 1px solid var(--hairline-color);
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    height: auto;}
+
+@media (min-width:970px) {
+      div#content-main>div.module {width: 500px;max-width: 600px;}
+      #content-main{display: grid;grid-template-columns: repeat(2,50%);grid-auto-columns: minmax(100px,auto);justify-content: space-evenly;grid-gap: 20px;}
+      ul.object-tools{
+
+
+            position: fixed;
+            right: 35px;
+            top: 144px;
+            z-index: 40;
+      
+      }
+}
+main#content-start{min-height: 100vh;max-height: max-content;}
+.object-tools a:link, .object-tools a:visited{font-size: 30px;padding: 10px;}
+
+#admin_tit{color: #ffffff;font-weight: 500;}
+
+
+.object-tools>li>a{font-size: auto;background-color: rgb(214, 214, 214);box-shadow: 0px 0px 10px 10px #000000;border-radius: 10px;}
+#changelist{width: 100%;box-shadow: 0px 0px 20px 15px #000000;min-height: fit-content;}
+form#logout-form>button{margin: 1px;padding: 3px;background-color: rgb(0, 50, 255);border: 1px solid #ffffff;border-radius: 3px;font-size: 20px;font-weight: 400;}
+#header{background-color: rgb(0, 100, 255);}
+#user-tools{color: #002fff;font-weight: 600;font-size: 20px;    background-color: #d6dce375;
+      padding: 2%;
+      border-radius: 10px;color: white;}
+div#user-tools>strong{color: #ffffff;font-weight: 800;}
+.intro_display{display: grid;grid-template-columns: repeat(2,auto);align-items: center;}
+
+
+
+div#content-main>div.module{min-height: fit-content;    position: relative;
+      z-index: 19;
+      background-color: azure;
+      }
+nav.sticky{padding: 10px;background-color: rgb(0, 34, 170);}
+
+nav#nav-sidebar{background-color: #000f50;}
+
+.module h2, .module caption, .inline-group h2 {
+
+      background-color: rgb(0, 34, 170);
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {color: #ffffff;}
+
+.submit-row input, .submit-row input.default, .submit-row a {background-color: #002fff;color: #fff;}
+
+
+.submit-row a.deletelink {
+      display: block;
+      background: #f00;
+      border-radius: 4px;
+      line-height: 0.9375rem;
+      color: var(--button-fg);
+  }
+div>fieldset.module.aligned{padding: 20px;border-radius: 10px;box-shadow: 0px 0px 0px 0px #0000006b;} 
+
+div.breadcrumbs{  background-color: rgb(0, 34, 170);}
+a.section:link, a.section:visited{padding: 0px;}
+
+
+.dashboard #content{width: 100%;display: grid;margin: 0px;}
+
+
+
+
+#content-related{
+            width: 100%;
+            align-items: center;
+            margin: 0px;
+            display: grid;
+            justify-content: start;
+            background-color: rgb(0, 24, 122);
+            padding: 10px;
+            border-radius: 10px;
+         float: left;
+
+
+
+}
+
+
+div>table>tbody>tr>th{padding: 10px;font-size: 15px;  background-color: rgb(0, 23, 114);}
+#changelist table thead th{color: #fff;}

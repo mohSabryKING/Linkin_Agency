@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-29 09:55+0200\n"
+"PO-Revision-Date: 2023-12-29 14:28+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\Agency_action\models.py:17
+msgid "emp_name"
+msgstr "اسم الموظف"
+
+#: .\Agency_action\models.py:18
+msgid "emp_img"
+msgstr "صوره الموظف"
+
+#: .\Agency_action\models.py:19
+msgid "salary"
+msgstr "المرتب"
+
+#: .\Agency_action\models.py:20
+msgid "position"
+msgstr "الوظيفه"
+
+#: .\Agency_action\models.py:36
+msgid "related_to_user"
+msgstr "تابع للمستخدم"
+
+#: .\Agency_action\models.py:39
+msgid "client_img"
+msgstr "صوره الغلاف"
+
+#: .\Agency_action\models.py:40
+msgid "client_name"
+msgstr "اسم العميل"
+
+#: .\Agency_action\models.py:42
+msgid "phone_number"
+msgstr "رقم الهاتف"
+
+#: .\Agency_action\models.py:55
+msgid "add_to_x"
+msgstr "يضاف الي العميل س"
+
+#: .\Agency_action\models.py:58
+msgid "post_name"
+msgstr "اسم المنشور"
+
+#: .\Agency_action\models.py:59
+msgid "platform_type"
+msgstr "نوع المنصه"
+
+#: .\Agency_action\models.py:60 .\Agency_action\models.py:110
+msgid "url_hyperlink"
+msgstr "الرابط"
+
+#: .\Agency_action\models.py:61
+msgid "postgraph"
+msgstr "صوره المنشور"
+
+#: .\Agency_action\models.py:62 .\Agency_action\models.py:86
+#: .\Agency_action\models.py:111 .\Agency_action\models.py:132
+msgid "bio"
+msgstr "نبذه"
+
+#: .\Agency_action\models.py:63 .\Agency_action\models.py:81
+#: .\html\post_item.html:19
+msgid "campagin_cost"
+msgstr "تكلفه الحمله الاعلانيه"
+
+#: .\Agency_action\models.py:79
+msgid "for_client_x1"
+msgstr "تابع للعميل"
+
+#: .\Agency_action\models.py:82
+#, fuzzy
+#| msgid "Printings"
+msgid "print_type"
+msgstr "المطبوعات"
+
+#: .\Agency_action\models.py:84
+msgid "title"
+msgstr "العنوان"
+
+#: .\Agency_action\models.py:85
+#, fuzzy
+#| msgid "Printings"
+msgid "printing_model"
+msgstr "المطبوعات"
+
+#: .\Agency_action\models.py:87 .\html\car_item.html:17
+#: .\html\print_item.html:17
+msgid "price_per_item"
+msgstr "تكلفه العنصر\\المكون الواحد"
+
+#: .\Agency_action\models.py:88 .\html\car_item.html:16
+#: .\html\print_item.html:16
+msgid "amount"
+msgstr "الكميه"
+
+#: .\Agency_action\models.py:104
+msgid "for_client_x2"
+msgstr "تابع للعميل"
+
+#: .\Agency_action\models.py:107 .\html\web_item.html:16
+msgid "web_name"
+msgstr "اسم الموقع"
+
+#: .\Agency_action\models.py:108
+msgid "web_type"
+msgstr "نوع الموقع"
+
+#: .\Agency_action\models.py:109
+msgid "logo"
+msgstr "شعار الموقع"
+
+#: .\Agency_action\models.py:126
+msgid "for_client_x3"
+msgstr "تابع للعميل"
+
+#: .\Agency_action\models.py:129
+msgid "car_name"
+msgstr "اسم السياره"
+
+#: .\Agency_action\models.py:130
+msgid "car_poster"
+msgstr "الاعلان الخاص بها"
+
+#: .\Agency_action\models.py:151
+msgid "for_client_x4"
+msgstr "تابع للعميل"
+
+#: .\Agency_action\models.py:154
+msgid "service_name"
+msgstr "اسم\\توع الخدمه"
+
+#: .\Agency_action\models.py:155
+msgid "service_info"
+msgstr "معلومات عن الخدمه"
+
+#: .\Agency_action\views.py:96
+msgid "Menu page"
+msgstr "القائمة الرئيسيه"
+
+#: .\Agency_action\views.py:128
+msgid "Printings"
+msgstr "المطبوعات"
+
+#: .\Agency_action\views.py:134
+msgid "Social media"
+msgstr "وسائل التواصل"
+
+#: .\Agency_action\views.py:140
+msgid "All websites"
+msgstr "المواقع المتاحه"
+
+#: .\Agency_action\views.py:146
+msgid "Service Providers"
+msgstr "المسؤلين عن الخدمات"
+
+#: .\Agency_action\views.py:152
+msgid "Sport cars"
+msgstr "السيارات الرياضيه"
+
+#: .\Linkin_Agency\settings.py:122
+msgid "English"
+msgstr "الانجليزيه"
+
+#: .\Linkin_Agency\settings.py:122
+msgid "Arabic"
+msgstr "العربيه"
+
+#: .\Linkin_Agency\settings.py:122
+msgid "Germany"
+msgstr "الالمانيه"
+
+#: .\html\car_item.html:6 .\html\menu.html:99 .\html\menu.html:186
+#: .\html\menu.html:255 .\html\menu1.txt:75 .\html\menu1.txt:93
+#: .\html\menu2.txt:75 .\html\menu2.txt:93 .\html\menu3.txt:109
+#: .\html\menu3.txt:206
+msgid "cars"
+msgstr "السيارات"
+
+#: .\html\car_item.html:18 .\html\post_item.html:18 .\html\print_item.html:18
+#: .\html\web_item.html:18
+#, fuzzy
+msgid "info"
+msgstr "معلومات"
+
+#: .\html\car_item.html:19 .\html\post_item.html:20 .\html\print_item.html:19
+#: .\html\web_item.html:19
+#, fuzzy
+msgid "added_in"
+msgstr "إضيف بتاريخ"
+
+#: .\html\create_profile.html:6
+#, fuzzy
+msgid "create_your_profile"
+msgstr "إتشئ صفختك الخاصه"
+
+#: .\html\create_profile.html:46 .\html\log.html:26 .\html\sign_up.html:30
+#, fuzzy
+msgid "submit"
+msgstr "تأكيد"
+
+#: .\html\log.html:6
+#, fuzzy
+msgid "log_in"
+msgstr "تسجيل دخول"
+
+#: .\html\log.html:18 .\html\sign_up.html:18
+#, fuzzy
+#| msgid "service_name"
+msgid "username"
+msgstr "أسم المستخدم"
+
+#: .\html\log.html:22 .\html\sign_up.html:22
+#, fuzzy
+msgid "password1"
+msgstr "كلمه السر"
+
+#: .\html\menu.html:80 .\html\menu.html:163
+#, fuzzy
+msgid "Linkin Agency"
+msgstr "وكاله لينكين"
+
+#: .\html\menu.html:92 .\html\menu.html:179 .\html\menu3.txt:102
+#: .\html\menu3.txt:198
+#, fuzzy
+msgid "Profile"
+msgstr "صفحه المستخدم"
+
+#: .\html\menu.html:94 .\html\menu.html:181 .\html\menu1.txt:71
+#: .\html\menu1.txt:89 .\html\menu2.txt:71 .\html\menu2.txt:89
+#: .\html\menu3.txt:104 .\html\menu3.txt:200
+msgid "Register"
+msgstr ""
+
+#: .\html\menu.html:96 .\html\menu.html:183 .\html\menu.html:229
+#: .\html\menu.html:253 .\html\menu1.txt:72 .\html\menu1.txt:90
+#: .\html\menu2.txt:72 .\html\menu2.txt:90 .\html\menu3.txt:106
+#: .\html\menu3.txt:203 .\html\print_item.html:6 .\html\web_item.html:6
+#, fuzzy
+#| msgid "Printings"
+msgid "prints"
+msgstr "المطبوعات"
+
+#: .\html\menu.html:97 .\html\menu.html:184 .\html\menu.html:227
+#: .\html\menu.html:230 .\html\menu.html:254 .\html\menu1.txt:73
+#: .\html\menu1.txt:91 .\html\menu2.txt:73 .\html\menu2.txt:91
+#: .\html\menu3.txt:107 .\html\menu3.txt:204
+#, fuzzy
+#| msgid "car_poster"
+msgid "social_posts"
+msgstr "الاعلان الخاص بها"
+
+#: .\html\menu.html:98 .\html\menu.html:185 .\html\menu.html:228
+#: .\html\menu.html:252 .\html\menu1.txt:74 .\html\menu1.txt:92
+#: .\html\menu2.txt:74 .\html\menu2.txt:92 .\html\menu3.txt:108
+#: .\html\menu3.txt:205 .\html\menu3.txt:237
+#, fuzzy
+#| msgid "All websites"
+msgid "web_sites"
+msgstr "المواقع المتاحه"
+
+#: .\html\menu.html:100 .\html\menu.html:187 .\html\menu1.txt:76
+#: .\html\menu1.txt:94 .\html\menu2.txt:76 .\html\menu2.txt:94
+#: .\html\menu3.txt:110 .\html\menu3.txt:207
+#, fuzzy
+#| msgid "service_name"
+msgid "services"
+msgstr "اسم\\توع الخدمه"
+
+#: .\html\menu.html:101 .\html\menu.html:188 .\html\menu1.txt:77
+#: .\html\menu1.txt:95 .\html\menu2.txt:77 .\html\menu2.txt:95
+#: .\html\menu3.txt:111 .\html\menu3.txt:208
+msgid "Contacts"
+msgstr " التواصل"
+
+#: .\html\menu.html:197
+msgid "hellow my site"
+msgstr ""
+
+#: .\html\menu.html:198
+msgid "hellow my site2"
+msgstr ""
+
+#: .\html\menu.html:205
+msgid "display_content"
+msgstr "عرض المحنوي"
+
+#: .\html\menu.html:225
+#, fuzzy
+#| msgid "Service Providers"
+msgid "services that we provide"
+msgstr "المسؤلين عن الخدمات"
+
+#: .\html\menu.html:231
+msgid "and more"
+msgstr "و المزيد"
+
+#: .\html\menu.html:251
+msgid "statistics"
+msgstr "الإحصائيات الحاليه"
+
+#: .\html\menu3.txt:232
+#, fuzzy
+#| msgid "Service Providers"
+msgid "servics that we provide"
+msgstr "المسؤلين عن الخدمات"
+
+#: .\html\menu3.txt:235
+#, fuzzy
+#| msgid "Printings"
+msgid "Prints"
+msgstr "المطبوعات"
+
+#: .\html\menu3.txt:236
+#, fuzzy
+#| msgid "Social media"
+msgid "Social_media"
+msgstr "وسائل التواصل"
+
+#: .\html\menu3.txt:238
+#, fuzzy
+#| msgid "Sport cars"
+msgid "sport_cars"
+msgstr "السيارات الرياضيه"
+
+#: .\html\menu3.txt:239
+#, fuzzy
+#| msgid "Service Providers"
+msgid "providers"
+msgstr "المسؤلين عن الخدمات"
+
+#: .\html\post_item.html:3 .\html\post_item.html:6
+#, fuzzy
+#| msgid "post_name"
+msgid "post"
+msgstr "اسم المنشور"
+
+#: .\html\post_item.html:16
+#, fuzzy
+#| msgid "platform_type"
+msgid "platform"
+msgstr "نوع المنصه"
+
+#: .\html\post_item.html:17
+#, fuzzy
+#| msgid "car_poster"
+msgid "visit_post"
+msgstr "الاعلان الخاص بها"
+
+#: .\html\sign_up.html:6 .\html\user_profile.html:6
+#, fuzzy
+msgid "Add_new_user"
+msgstr "أضافه مستحدم جديد"
+
+#: .\html\sign_up.html:26
+msgid "password2"
+msgstr "تأكيد كلمه السر"
+
+#: .\html\web_item.html:17
+msgid "web_url"
+msgstr "رابط الموقع"
+
+#, fuzzy
+#~ msgid "All requsted cars"
+#~ msgstr "المواقع المتاحه"
+
+#, fuzzy
+#~ msgid "All requsted web_site"
+#~ msgstr "المواقع المتاحه"
+
+#~ msgid "Jil"
+#~ msgstr "البطل"
+
+#~ msgid "mega_speak"
+#~ msgstr ""
+#~ "نقدم لكم أكبر مجموعة موضوعات تعبير هدية لكم من موقعكم المدرس بوك هذه الموسوعة تساعد الطالب في كل المراحل للابداع من خلال قراءة موضوعات تعبير جاهزة مما يزيد حصيلته الابداعية من موضوعات التعبير وكذلك مساعدة الطالب في فترة الامتحان وخصوصا مع زيادة المواد التي من المفروض أن يحصلها وزيادة درجة سؤال التعبير\n"
+#~ "\n"
+#~ "موضوعات التعبير المتضمنة في الموسوعة"

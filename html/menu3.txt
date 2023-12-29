@@ -1,0 +1,305 @@
+{%load static%}{%load i18n%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="{% static 'css/model.css' %}">
+      <link rel="stylesheet" href="{% static 'css/bulma.css' %}">
+      <link rel="stylesheet" href="{% static 'css/bulma.min.css' %}">
+      <link rel="stylesheet" href="{% static 'css/bulma.css.map' %}">
+      <link rel="stylesheet" href="{% static 'css/bulma-rtl.css' %}">
+      <link rel="stylesheet" href="{% static 'css/bulma-rtl.css.map' %}">
+      <link rel="stylesheet" href="{% static 'css/bulma-rtl.min.css' %}">
+      <title>{%block tit%}menu page{%endblock%}</title>
+      
+      {%comment%}
+      {% #jil mega_speak head_title_home%}
+      INFO:
+      
+      نم تعريف جميع اسماء المنغيرات من خلال مكتبه روسيتا الموجوظه في الموقع
+      
+      {%endcomment%}
+      
+</head>
+<style>
+      .button{position: inherit;top: 20px;border: 0px;}
+      
+.shadow_btn1{background-color: rgb(0, 80, 255);color: aliceblue; box-shadow: 0px 0px 10px 5px #000;margin-top: 20px;}
+.shadow_btn1:hover{background-color:white;color: rgb(0, 80, 255); box-shadow: 0px 0px 10px 5px #000;margin-top: 20px;}
+
+.shadow_btn2{background-color: rgb(245, 245, 245);color: aliceblue ;border-radius: 5px;margin-top: 20px;box-shadow: 0px 0px 10px 5px #000;}
+.shadow_btn2:hover{background-color: white;color: rgb(105, 105, 105);border-radius: 5px;margin-top: 20px; box-shadow: 0px 0px 10px 5px #000;}
+
+.columns{padding:0px;margin: 0px;}
+.column{padding: 0px;margin: 0px;}
+
+</style>
+<header>
+      <section class="hero is-fullheight" style="min-height: fit-content;">
+            <div class="hero-head" id="top_head" >
+
+                  <div class="sm_group">
+                        <div>
+                              <a href="">
+                                    <img src="{%static 'img/sm/fb.svg'%}" alt="" class="sm_model">
+                              </a>
+                        </div>
+                        <div>
+                              <a href="">
+                                    <img src="{%static 'img/sm/linkedin.svg'%}" alt="" class="sm_model">
+                              </a>
+                        </div>
+                        <div>
+                              <a href="">
+                                    <img src="{%static 'img/sm/pintrest.svg'%}" alt="" class="sm_model">
+                              </a>
+                        </div>
+                        <div>
+                              <a href="">
+                                    <img src="{%static 'img/sm/whatsapp.svg'%}" alt="" class="sm_model">
+                              </a>
+                        </div>
+                        <div>
+                              <a href="">
+                                    <img src="{%static 'img/sm/insta.svg'%}" alt="" class="sm_model">
+                              </a>
+                        </div>
+                  </div>
+                  <div style="margin: auto;padding: 20px;" class="level is-hidden-touch">
+                        <div class="level-left">
+                              
+                                          <div class="dropdown" style="position: relative;z-index: 53;background-color: #000;">
+                                                <div class="dropdown-trigger">
+                                                  <button class="button" aria-haspopup="false" aria-controls="dropdown-menu">
+                                                    <span>GR</span>
+                                                    <span class="icon is-small">
+                                                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                  </button>
+                                                </div>
+                                                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                                  <div class="dropdown-content">
+                                                    <a href="#" class="dropdown-item">
+                                                      EN
+                                                    </a>
+                                                    <a class="dropdown-item">
+                                                     GR
+                                                    </a>
+                                                    <a href="#" class="dropdown-item is-active">
+                                                      AR
+                                                    </a>
+                                                   
+                                                  </div>
+                                                </div>
+                                              </div>
+                            
+                        </div>
+                        <div class="level-right">
+                              <div class="menu_col">
+                                    {%if user.is_authenticated%}
+                                    <a href="" class="btn_model"  id="id1">{%trans 'Profile' %}</a>
+                                    {%else%}
+                                   <a href="" class="btn_model"  id="id1">{%trans 'Register' %}</a>
+                                    {%endif%}
+                                    <a href="" class="btn_model" onmouseover="view_top_data(this,'c2');"  onmouseleave="out_x(this,'c2')"  id="id2">{%trans 'prints' %}</a>
+                                    <a href="" class="btn_model" onmouseover="view_top_data(this,'c3');"  onmouseleave="out_x(this,'c3')"  id="id3">{%trans 'social_posts' %}</a>
+                                    <a href="" class="btn_model" onmouseover="view_top_data(this,'c4');"  onmouseleave="out_x(this,'c4')" id="id4">{%trans 'web_sites' %}</a>
+                                    <a href="" class="btn_model" onmouseover="view_top_data(this,'c5');"  onmouseleave="out_x(this,'c5')" id="id5">{%trans 'cars' %}</a>
+                                    <a href="" class="btn_model" onmouseover="view_top_data(this,'c6');"  onmouseleave="out_x(this,'c6')" id="id6">{%trans 'services' %}</a>
+                                    <a href="" class="btn_model"  id="id7">{%trans 'Contacts' %}</a>
+                                    
+
+                              </div>
+                              
+                        </div>
+                  </div>
+                  
+                  <div style="display: flex;padding: 20px;" class="level is-hidden-desktop">
+                        <div class="brand">
+                              <div></div>
+                              <div>
+                                    <div class="dropdown">
+                                          <div class="dropdown-trigger">
+                                            <button class="button" aria-haspopup="true">
+                                              <span>GR</span>
+                                              <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                              </span>
+                                            </button>
+                                          </div>
+                                          <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                            <div class="dropdown-content">
+                                              <a href="#" class="dropdown-item">
+                                                EN
+                                              </a>
+                                              <a class="dropdown-item">
+                                               GR
+                                              </a>
+                                              <a href="#" class="dropdown-item is-active">
+                                                AR
+                                              </a>
+                                             
+                                            </div>
+                                          </div>
+                                        </div>
+                              </div>
+                        </div>
+                        <div class="level-right" style="margin: 0px;">
+                        <a id="" onclick="display_menu();" class=".display_content"><img src="{%static 'img/hamburg.svg'%}" height="32px" width="32px" alt=""></a>
+                        </div>
+                  </div>
+            </div>
+            <div class="content_display" onmouseover="view_top_data(this,'c2');" onmouseout="out_x(this,'c2');" id="c2">
+                  <div class="output_1">{%for i in prints%}
+                  {{i.print_model}}
+                  {%endfor%}</div>
+                  <a onclick="out_x(this)" class="button">leave</a>
+            </div>
+            <div class="content_display" onmouseover="view_top_data(this,'c3');" onmouseout="out_x(this,'c3');" id="c3">
+                  <div class="output_1">
+                       {%for i in social_posts%}
+                  {{i.print_model}}
+                  {%endfor%} 
+                  </div>
+                  <a onclick="out_x(this)" class="button">leave</a>
+                  </div>
+            <div class="content_display" onmouseover="view_top_data(this,'c4');" onmouseout="out_x(this,'c4');" id="c4">
+                  <div class="output_1">
+                      {%for i in websites%}
+                  
+                  <a href="{{i.url_hyperlink}}" class="btn_model">{{i.web_name}}</a>
+                  {%endfor%}   
+                  
+                  </div>
+                  <a onclick="out_x(this)" class="button">leave</a>
+                 </div>
+            <div class="content_display" onmouseover="view_top_data(this,'c5');" onmouseout="out_x(this,'c5');" id="c5">
+                  
+                  <div class="output_1">
+                        {%for i in car_models%}
+                  <a href="">{{i.car_name}} in {{i.added_in}}</a>
+                  {%endfor%}
+                  </div>
+                  <a onclick="out_x(this)" class="button">leave</a>
+                  </div>
+            <div class="content_display" onmouseover="view_top_data(this,'c6');" onmouseout="out_x(this,'c6');" id="c6">
+                  <div class="output_1">
+                         {%for i in providers%}
+                  {{i.print_model}}
+                  {%endfor%}
+                  </div>
+                  <a onclick="out_x(this)" class="button">leave</a>
+                 </div>
+
+            <div class="menu_row" id="menu_list">
+                  {%if user.is_authenticated%}
+                  <a href="" class="btn_model" id="idx1">{%trans 'Profile' %}</a>
+                  {%else%}
+                  <a href="" class="btn_model" id="idx1">{%trans 'Register' %}</a>
+                  {%endif%}
+                  
+                  <a href="" class="btn_model" id="idx2">{%trans 'prints' %}</a>
+                  <a href="" class="btn_model" id="idx3">{%trans 'social_posts' %}</a>
+                  <a href="" class="btn_model" id="idx4">{%trans 'web_sites' %}</a>
+                  <a href="" class="btn_model" id="idx5">{%trans 'cars' %}</a>
+                  <a href="" class="btn_model" id="idx6">{%trans 'services' %}</a>
+                  <a href="" class="btn_model" id="idx7">{%trans 'Contacts' %}</a>
+            </div>
+              {%block header1%}
+                  <div class="header_content">
+                        
+                        <div id="c1" class="content_num1" style="background-color: #00000000;">
+                              <img src="{%static 'img/bs.png'%}" alt="HEAD_IMG">
+                        </div>
+                        <div id="c2" class="content_num2" dir="ltr">
+                              <h1 class="title is-2">display meta content</h1>
+                              <h2 class="title ">display meta contentSSS</h2>
+                              <p class="subtitle is-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis quod facilis, placeat iste modi expedita eius at, hic unde rem repellat nobis quisquam perferendis aliquid pariatur itaque dolorem doloremque!</p>
+                              <a href="" class="button shadow_btn1">display contents</a>
+                        </div>
+                      
+                  </div>  {%endblock%}
+                  
+        
+
+      </section>
+      
+</header>
+
+<body>
+      <h1 id="h1" class="title is-1 txt_s">{%block h_1%}{%trans "servics that we provide"%}{%endblock%}</h1>
+      {%block content_1%}
+<div class="content_g" id="g1">
+     <div class="cont" id="c1"><h2>{%trans 'Prints'%}</h2></div>
+     <div class="cont" id="c2"><h2>{%trans 'Social_media'%}</h2></div>
+     <div class="cont" id="c3"><h2>{%trans 'web_sites'%}</h2></div>
+     <div class="cont" id="c4"><h2>{%trans 'sport_cars'%}</h2></div>
+     <div class="cont" id="c5"><h2>{%trans 'providers'%}</h2></div>
+</div>{%endblock%}
+
+
+{%block cover_content%}
+ <section class="body_model_1">
+      <div class="content_num1">
+            <div style="position: relative;z-index: 37;">
+
+            </div>
+      </div>
+      <div class="content_num2" id="b2"></div>
+ </section>
+ <section class="body_model_2">
+      <div></div>
+      <div class="content_col">
+            <div class="cont7" id="g2">
+                  {%block 4blocks%}
+                  <div class="x1"><h2>{{social_posts_c}}</h2><span>social_adv</span></div>
+                  <div class="x2"><h2>{{prints_c}}</h2><span>printings</span></div>
+                  <div class="x3"><h2>{{car_models_c}}</h2><span>car_posts</span></div>
+                  <div class="x4"><h2>{{websites_c}}</h2><span>web_site</span></div>
+                  {%endblock%}
+            </div>
+            <div>
+
+            </div>
+      </div>
+      
+       
+       
+ </section>
+ {%endblock%}
+     
+      
+   
+      <script>
+            var btn_hamb=document.getElementById('menu_list');
+            function display_menu() {
+                  if (btn_hamb.style.display==="none") {
+                        btn_hamb.style.display='grid';
+                        console.log("calling grid display action");
+                  } else {
+                        btn_hamb.style.display='none';
+                        console.log("calling NONE display action");
+                  }
+                  
+            }
+            const btn_model=document.querySelectorAll(".btn_model")
+            //let count_=document.querySelector(".display_content");
+            function view_top_data(onclick_v,txt) {
+                  
+                  document.getElementById(txt).style.display='block';
+            }
+
+            function out_x(onclick_v,txt) {
+                  document.getElementById(txt).style.display='none';
+            }
+            
+      </script>
+</body>
+<footer>
+      <section class="hero" style="height: 300px;">
+            <div class="hero-head" style="background-color: rgb(70, 70, 70);">uuu</div>
+            <div class="hero-body" style="background-color: rgb(0, 0, 0);">yyy</div>
+      </section>
+</footer>
+</html>

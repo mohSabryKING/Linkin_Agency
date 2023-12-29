@@ -1,0 +1,44 @@
+{%extends 'menu.html'%}
+{%load i18n%}{%load widget_tweaks%}
+{%block tit%}menu page{%endblock%}
+{%block out_header1%}{%block header1%}
+<div id="output_header">
+   <h1 id="h3" class="title" >{%trans 'log_in'%}</h1> 
+</div>
+
+{%endblock%}{%endblock%}
+
+{%block cont_1%}
+<div style="display: grid;grid-template-columns: repeat(5,auto);">
+    <div></div>
+    <div></div>
+    <div class="output_3" >
+        <form action="POST" class="form" style="padding: 10px;">
+            <div class="field">
+                <label class="label">{%trans 'username'%}</label>
+                {%render_field form.username class='input'%}
+            </div>
+            <div class="field">
+                <label class="label">{%trans 'password1'%}</label>
+                {%render_field form.password class='input'%}
+            </div>
+            <div class="field" style="text-align: center;font-size: medium;">
+                <button type="submit" class="button is-success is-light" style="font-size: large;" >{%trans 'submit'%}</button>
+            </div>
+        </form>
+     </div>
+     <div></div>
+    <div></div>
+</div>
+
+ 
+
+{%endblock%}
+{%block out_content_1%}{%block content_1%}{%endblock%}{%endblock%}
+
+
+
+
+
+
+
